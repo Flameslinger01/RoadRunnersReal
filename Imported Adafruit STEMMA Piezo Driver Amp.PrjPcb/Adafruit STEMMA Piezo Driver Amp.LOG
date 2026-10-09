@@ -1,0 +1,19 @@
+Importer Log Report
+Project : Adafruit STEMMA Piezo Driver Amp.PrjPcb
+
+Section : Analyze Document - C:\Users\flame\Downloads\Adafruit STEMMA Piezo Driver Amp.brd
+    Analyzing data of C:\Users\flame\Downloads\Adafruit STEMMA Piezo Driver Amp.brd
+    Load settings
+    Load layers 181
+    Load board
+    Load Library "microbuilder"
+    Load Packages 9
+    Load Library "adafruit_electromech"
+    Load Packages 4
+    Load Library "pinguin"
+    Load Packages 14
+    Load Library "adafruit_power"
+    Load Packages 1
+    ERROR: Unhandled typemfgpreviewcolors
+    ERROR: Unhandled typeerrors
+EndSection
