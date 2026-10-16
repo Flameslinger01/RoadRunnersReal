@@ -1,0 +1,4175 @@
+(footprint "ESP32"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.239655 -24.957 0)
+		(layer "F.SilkS")
+		(uuid "9e93330a-c066-4066-8824-3a75b0a17131")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ESP32"
+		(at -0.239655 24.957 0)
+		(layer "F.Fab")
+		(uuid "15d907df-c0bd-43c6-a69b-b5a0b28e5579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48ce659e-b9e0-46ed-8e15-be9025dbef98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07576058-aba2-495b-8139-249612264530")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -13.46387 -24.13)
+		(end 12.98456 -24.13)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2779b3d-489e-4ee4-8b40-bcd96b494598")
+	)
+	(fp_line
+		(start -13.46387 24.13)
+		(end -13.46387 -24.13)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8aab6b2d-4304-446a-8737-6ec4e61922bd")
+	)
+	(fp_line
+		(start -13.46387 24.13)
+		(end 12.98456 24.13)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "687b8413-f459-4a07-9f93-4e0ea65935ae")
+	)
+	(fp_line
+		(start 12.98456 24.13)
+		(end 12.98456 -24.13)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dcb7c2e2-90ce-490c-9da3-be26a13b3bb6")
+	)
+	(pad "0/N" thru_hole circle
+		(at -11.684 -7.3152)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "a9001ef9-b073-41b2-8b67-067bbd67ed1e")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "1/N" thru_hole circle
+		(at -11.684 -4.7752)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "76dfb0dd-7dcb-4e44-9e04-67b09ef07b8a")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "2" thru_hole circle
+		(at -11.684 -17.4752)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "cecab1c3-1689-4d1e-b575-a2798c6fde49")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "3" thru_hole circle
+		(at -11.684 -14.9352)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "e7915111-91cd-4bc4-a943-bf05fc578380")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "3V3" thru_hole circle
+		(at -11.684 -22.5552)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "0ec73d98-1eba-441e-aaed-4c473c251787")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "4" thru_hole circle
+		(at -11.684 -12.3952)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "120b94d3-aa3b-406e-b3e0-5f5f58178419")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "5" thru_hole circle
+		(at -11.684 -9.8552)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6cd68ac8-eb49-4aa6-9d53-6f2a2e96eb68")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "5V0" thru_hole circle
+		(at -11.684 10.4648)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "1d6e4706-99db-488e-9ef9-9471c849d7af")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "6" thru_hole circle
+		(at -11.684 0.3048)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ea85c5c7-d42e-4f9c-92c1-6fd8267980c8")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "7" thru_hole circle
+		(at -11.684 2.8448)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d0abf492-90d5-4622-a9e0-dfdcabd7eb17")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "8" thru_hole circle
+		(at -11.684 -2.2352)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d2dd64d9-0c6b-4353-8807-bd9824ab3e5f")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "9" thru_hole circle
+		(at 11.176 2.8448)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "0cd6952e-f27f-46fd-b450-9d39a1c39411")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "12" thru_hole circle
+		(at 11.176 10.4648)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d083046c-fd43-44d1-899c-2af24aed6884")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "13" thru_hole circle
+		(at 11.176 7.9248)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "831de110-bc1d-4bd7-978b-79be07ad2025")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "14" thru_hole circle
+		(at -11.684 5.3848)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "0b999fa6-3f3e-460b-b4f2-a2eb7f3189d1")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "15" thru_hole circle
+		(at 11.176 0.3048)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "8b0143b5-f2b7-4ff7-968d-7a56f9ea796a")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "18" thru_hole circle
+		(at 11.176 -2.2352)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b5781df6-4de3-4d6c-9885-7edcd0693ae7")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "19" thru_hole circle
+		(at 11.176 -4.7752)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "93bddaba-97c7-459c-b840-d3ebff8c5ce1")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "20" thru_hole circle
+		(at 11.176 -7.3152)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ad0f2514-930f-4636-840c-ecee0d3f8982")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "21" thru_hole circle
+		(at 11.176 -9.8552)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "f436ada7-59fe-4b4a-88c0-5209d2c9fa71")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "22" thru_hole circle
+		(at 11.176 -12.3952)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "3101df4b-bf9c-46c6-83a6-527f91899eed")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "23" thru_hole circle
+		(at 11.176 -14.9352)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "45a832a8-e96a-4716-bd6e-5c646206f410")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "GND1" thru_hole circle
+		(at -11.684 7.9248)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "dd71503b-5bd9-44a5-8a39-ca9a1e5ce85a")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "GND2" thru_hole circle
+		(at -11.684 13.0048)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "97c9cc7d-6a15-4a58-a939-1c836b7102a0")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "GND3" thru_hole circle
+		(at 11.176 -22.5552)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "535faa33-1e71-42a3-b638-0545f56cfb1b")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "GND4" thru_hole circle
+		(at 11.176 5.3848)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "9b707d16-0a0d-4927-80e8-45cebf34b2b3")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "GND5" thru_hole circle
+		(at 11.176 13.0048)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "a35f107e-1812-45e1-862b-4be898d4e8d3")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "RST" thru_hole circle
+		(at -11.684 -20.0152)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ab417ecb-00ef-49d5-802e-63e448393c91")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "RX" thru_hole circle
+		(at 11.176 -17.4752)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6fb6e664-2741-42f4-a051-1cd8557d3755")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(pad "TX" thru_hole circle
+		(at 11.176 -20.0152)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6617ab38-2458-447b-aaef-94a207b6a3a4")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 1.778 0)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 1.778 1.778)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
