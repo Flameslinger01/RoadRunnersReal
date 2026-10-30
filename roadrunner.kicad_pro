@@ -260,7 +260,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|711200|736600|982b5b0b-b9e6-4874-9c43-a6959c1b2524|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -662,7 +667,7 @@
         "uuid": "d81562fe-4436-42a9-ab17-0c4a459ad6a3"
       }
     ],
-    "used_designators": "#PWR2,#PWR8-17,C1-2,D1,J4-5,R1,R221-222,RIGHT1,SW101,TOP1,U2-4",
+    "used_designators": "#FLG1-4,#PWR2,#PWR8-17,C1-2,D1,J4-6,R1,R221-222,RIGHT1,SW101,TOP1,U2-4",
     "variants": []
   },
   "sheets": [
