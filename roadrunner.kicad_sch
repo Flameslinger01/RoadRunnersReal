@@ -3890,7 +3890,7 @@
 		)
 		(uuid "11ec9e88-9145-4b73-a923-9ad1d15bac1d")
 	)
-	(label "4A"
+	(label "2A"
 		(at 88.9 73.66 0)
 		(effects
 			(font
@@ -3900,7 +3900,7 @@
 		)
 		(uuid "149f2951-4eac-467f-8310-82ab296eb39b")
 	)
-	(label "2A"
+	(label "4A"
 		(at 88.9 68.58 0)
 		(effects
 			(font
