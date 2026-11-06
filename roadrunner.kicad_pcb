@@ -5196,8 +5196,8 @@
 	)
 	(via
 		(at 148.5 82.5)
-		(size 1)
-		(drill 0.3)
+		(size 1.6)
+		(drill 1)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net "GND")
@@ -5205,8 +5205,8 @@
 	)
 	(via
 		(at 147 84)
-		(size 1)
-		(drill 0.3)
+		(size 1.6)
+		(drill 1)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net "GND")
@@ -5214,8 +5214,8 @@
 	)
 	(via
 		(at 145.5 79.5)
-		(size 1)
-		(drill 0.3)
+		(size 1.6)
+		(drill 1)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net "GND")
@@ -5223,8 +5223,8 @@
 	)
 	(via
 		(at 147 78)
-		(size 1)
-		(drill 0.3)
+		(size 1.6)
+		(drill 1)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net "GND")
